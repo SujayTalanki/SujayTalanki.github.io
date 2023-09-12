@@ -1,2 +1,4 @@
-# Sujay Talanki
-### Data Science @ UC San Diego 
+# Data Scientist
+
+### Education
+ffff
