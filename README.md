@@ -1,4 +1,2 @@
-# Data Scientist
-
 ### Education
 ffff
