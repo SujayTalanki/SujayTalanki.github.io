@@ -1,2 +1,2 @@
-# SujayTalanki.github.io
-Data Science @ UC San Diego 
+# Sujay Talanki
+### Data Science @ UC San Diego 
