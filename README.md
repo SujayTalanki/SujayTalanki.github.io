@@ -30,7 +30,13 @@
 
 ## Flight Delays Prediction
 * Pioneered a machine learning pipeline to predict the severity of a flight’s delay (1M+ flights)
-* Employed EDA, feature engineering, cross validation, and hyperparameter tuning to optimize a LightGBM model that predicts a
-flight’s delay severity with 95% accuracy
+* Performted EDA, feature engineering, cross validation, and hyperparameter tuning (GridSearchCV) to optimize a LightGBM model that achieved 95%
+* Tools: Python (numpy, pandas, sklearn, LightGBM, XGBoost, GridSearchCV)
 
+## Netflix Stock Price Prediction
+* Assembled an LSTM Neural Network to predict the closing price of Netflix stock using the last 60 days of time series data
+* LSTM Neural Network contained 3 LSTM layers of size 50 neurons, followed by 3 drouput layers (20%) and 1 dense layer
+* Adjusting the batch size to 32 and training for 50 epochs resulted in the best performance (~ 4.5 RMSE)
 
+## Image Processing with Object Oriented Programming
+* 
