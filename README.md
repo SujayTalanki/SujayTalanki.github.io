@@ -38,5 +38,8 @@
 * LSTM Neural Network contained 3 LSTM layers of size 50 neurons, followed by 3 drouput layers (20%) and 1 dense layer
 * Adjusting the batch size to 32 and training for 50 epochs resulted in the best performance (~ 4.5 RMSE)
 
-## Image Processing with Object Oriented Programming
+## Lead Scoring Model
+* Developed a lead scoring model with PyCaret to predict the probability that a loan ("lead") is funded with 97% accuracy
+* Led to a profit of ~ $333,000 (in our scenario, assuming a converted lead yields $120 and the time/effort costs around $15)
+
 * 
