@@ -1,6 +1,6 @@
 # Sujay Talanki's Portfolio
 
-## Movie Recommender System
+## [Movie Recommender System](https://github.com/SujayTalanki/MovieRecommendationSystem)
 * Engineered a content-based recommender system using NLP that takes in a movie and recommends 10 similar movies based on movie attributes and rating
 * Considered movies' description, cast, director, genre, and average rating to suggest movies that the user would enjoy
 * Conducted preprocessing and feature engineering to ensure data quality and enhance model performance
@@ -8,7 +8,7 @@
   to suggest to the user
 * Utilized Python pandas, nltk, sklearn
 
-## Top 10 Property Essentials
+## [Top 10 Property Essentials]()
 * Background: The company had many properties, each of which had 10 areas that inspectors were required to assess; inspectors left comments regarding the condition of each area
 * Result: Produced a Power BI dashboard that allows business analysts to extract information from 5,000+ inspectors’ comments regarding the condition of 5,000+ 
   properties. 
@@ -19,7 +19,7 @@
 * Analysts could filter the results based on the market, region, property type, property manager, etc. in order to visualize the performance
   of select facilities
 
-## Operating Expense (OpEx) Variance Analysis
+## [Operating Expense (OpEx) Variance Analysis]()
 * Background: The company had budgets for each operational expense (OpEx). If the actual expense for the quarter missed the budget, an accountant would leave a comment for the reason behind the
   "variance" (budget miss). I was tasked with categorizing the general reasons behind these variances.
 * Result: Applied unsupervised learning algorithms (NLP) to create 10 evenly distributed categories that classified 20,000+ OpEx variance comments. This project allowed accountants and analysts
@@ -28,17 +28,17 @@
 * Developed a python pipeline (pandas, nltk, sentence_transformers, sklearn) that embedded sentences into vectors (BERT LLM) and utilized K-Means clustering to categorize OpEx variance comments
 * Launched a local app (python: plotly and dash) to visualize the key phrases per category. This was used to help analysts summarize the content of the 20,000+ comments.
 
-## Flight Delays Prediction
+## [Flight Delays Prediction](https://github.com/SujayTalanki/FlightDelaysPrediction)
 * Pioneered a machine learning pipeline to predict the severity of a flight’s delay (1M+ flights)
 * Performted EDA, feature engineering, cross validation, and hyperparameter tuning (GridSearchCV) to optimize a LightGBM model that achieved 95%
 * Tools: Python (numpy, pandas, sklearn, LightGBM, XGBoost, GridSearchCV)
 
-## Netflix Stock Price Prediction
+## [Netflix Stock Price Prediction](https://github.com/SujayTalanki/Netflix-Stock-Prediction)
 * Assembled an LSTM Neural Network to predict the closing price of Netflix stock using the last 60 days of time series data
 * LSTM Neural Network contained 3 LSTM layers of size 50 neurons, followed by 3 drouput layers (20%) and 1 dense layer
 * Adjusting the batch size to 32 and training for 50 epochs resulted in the best performance (~ 4.5 RMSE)
 
-## Lead Scoring Model
+## [Lead Scoring Model](https://github.com/SujayTalanki/Lead-Scoring)
 * Developed a lead scoring model using supervised machine learning algorithms to predict the probability that a loan ("lead") is funded with 95% accuracy
 * After performing cross validation and comparing with several models, the LightGBM classifier performed optimally
 * Led to a profit of ~ $333,000 (in our scenario, assuming a converted lead yields $120 and the time/effort costs around $15)
