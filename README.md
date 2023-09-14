@@ -8,7 +8,7 @@
   to suggest to the user
 * Utilized Python pandas, nltk, sklearn
 
-## [Top 10 Property Essentials]()
+## [Top 10 Property Essentials]
 * Background: The company had many properties, each of which had 10 areas that inspectors were required to assess; inspectors left comments regarding the condition of each area
 * Result: Produced a Power BI dashboard that allows business analysts to extract information from 5,000+ inspectors’ comments regarding the condition of 5,000+ 
   properties. 
@@ -19,7 +19,7 @@
 * Analysts could filter the results based on the market, region, property type, property manager, etc. in order to visualize the performance
   of select facilities
 
-## [Operating Expense (OpEx) Variance Analysis]()
+## [Operating Expense (OpEx) Variance Analysis]
 * Background: The company had budgets for each operational expense (OpEx). If the actual expense for the quarter missed the budget, an accountant would leave a comment for the reason behind the
   "variance" (budget miss). I was tasked with categorizing the general reasons behind these variances.
 * Result: Applied unsupervised learning algorithms (NLP) to create 10 evenly distributed categories that classified 20,000+ OpEx variance comments. This project allowed accountants and analysts
