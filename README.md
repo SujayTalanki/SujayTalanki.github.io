@@ -52,10 +52,18 @@
 * Performted EDA, feature engineering, cross validation, and hyperparameter tuning (GridSearchCV) to optimize a LightGBM model that achieved 95%
 * Tools: Python (numpy, pandas, sklearn, LightGBM, XGBoost, GridSearchCV)
 
+![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/064e25c8-dcc5-4e85-ad3d-6e7af827c064)
+*Report*
+
+![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/21ace0ee-94c4-46b6-aa46-f252a691e280)
+*Summary of metrics*
+
 ## [Netflix Stock Price Prediction](https://github.com/SujayTalanki/Netflix-Stock-Prediction)
 * Assembled an LSTM Neural Network to predict the closing price of Netflix stock using the last 60 days of time series data
 * LSTM Neural Network contained 3 LSTM layers of size 50 neurons, followed by 3 drouput layers (20%) and 1 dense layer
 * Adjusting the batch size to 32 and training for 50 epochs resulted in the best performance (~ 4.5 RMSE)
+
+![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/cf51caeb-3c63-4c3d-a28d-3663401856e4)
 
 ## [Lead Scoring Model](https://github.com/SujayTalanki/Lead-Scoring)
 * Developed a lead scoring model using supervised machine learning algorithms to predict the probability that a loan ("lead") is funded with 95% accuracy
