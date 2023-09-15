@@ -1,4 +1,6 @@
-# Sujay Talanki's Data Science Portfolio
+---
+title:Sujay Talanki's Data Science Portfolio
+---
 
 ## [Movie Recommender System](https://github.com/SujayTalanki/MovieRecommendationSystem)
 * Engineered a content-based recommender system using NLP that takes in a movie and recommends 10 similar movies based on movie attributes and rating
@@ -18,12 +20,14 @@
   comments on an aggregate level according to user-selected attributes
 * Analysts could filter the results based on the market, region, property type, property manager, etc. in order to visualize the performance
   of select facilities
+  
 **Workflow diagrams:**
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/c9d46a86-27ae-4474-a0b0-4ca1707138a0)
   *Diagram of sentiment encoding process*
 
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/9a808bbb-8cdf-4a30-ba45-ce4f1dbb5b6d)
-  *Diagram of key phrase extraction process**
+  *Diagram of key phrase extraction process*  
+  
 **NOTE**: I don't have access to the data warehouse anymore, so there is an error when using the Power BI dashboard (PowerBIDashboard.png). However, I have attached 
   an image of what the missing visuals should look like (check App.png)
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/bf054830-bb14-4dab-b42e-d37434779875)
@@ -40,6 +44,7 @@
 * Reduced workload by ~ 60% and achieved ~ 80% accuracy on hold-out set
 * Developed a python pipeline (pandas, nltk, sentence_transformers, sklearn) that embedded sentences into vectors (BERT LLM) and utilized K-Means clustering to categorize OpEx variance comments
 * Launched a local app (python: plotly and dash) to visualize the key phrases per category. This was used to help analysts summarize the content of the 20,000+ comments.
+  
 **Workflow of Process**
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/aca14f93-f34c-47b7-be88-faa24ccc679f)
   *Diagram of process*
