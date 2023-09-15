@@ -1,5 +1,3 @@
-# Sujay Talanki's Portfolio
-
 ## [Movie Recommender System](https://github.com/SujayTalanki/MovieRecommendationSystem)
 * Engineered a content-based recommender system using NLP that takes in a movie and recommends 10 similar movies based on movie attributes and rating
 * Considered movies' description, cast, director, genre, and average rating to suggest movies that the user would enjoy
