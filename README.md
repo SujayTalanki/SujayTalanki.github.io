@@ -1,4 +1,3 @@
-# 
 # Sujay Talanki's Data Science Portfolio
 
 ## [Movie Recommender System](https://github.com/SujayTalanki/MovieRecommendationSystem)
