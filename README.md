@@ -51,11 +51,12 @@
 * Performted EDA, feature engineering, cross validation, and hyperparameter tuning (GridSearchCV) to optimize a LightGBM model that achieved 95%
 * Tools: Python (numpy, pandas, sklearn, LightGBM, XGBoost, GridSearchCV)
 
-![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/064e25c8-dcc5-4e85-ad3d-6e7af827c064)
-*Report*
+**Report of Findings**
+  ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/064e25c8-dcc5-4e85-ad3d-6e7af827c064)  
+  *Report*
 
-![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/21ace0ee-94c4-46b6-aa46-f252a691e280)
-*Summary of metrics*
+  ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/21ace0ee-94c4-46b6-aa46-f252a691e280)  
+  *Summary of metrics*
 
 ## [Netflix Stock Price Prediction](https://github.com/SujayTalanki/Netflix-Stock-Prediction)
 * Assembled an LSTM Neural Network to predict the closing price of Netflix stock using the last 60 days of time series data
