@@ -1,6 +1,4 @@
----
-title:Sujay Talanki's Data Science Portfolio
----
+### Sujay Talanki's Data Science Portfolio
 
 ## [Movie Recommender System](https://github.com/SujayTalanki/MovieRecommendationSystem)
 * Engineered a content-based recommender system using NLP that takes in a movie and recommends 10 similar movies based on movie attributes and rating
