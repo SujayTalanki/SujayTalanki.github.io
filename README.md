@@ -19,15 +19,14 @@
 * Analysts could filter the results based on the market, region, property type, property manager, etc. in order to visualize the performance
   of select facilities
   
-**Workflow diagrams:**
+**Workflow diagrams**
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/c9d46a86-27ae-4474-a0b0-4ca1707138a0)
   *Diagram of sentiment encoding process*
 
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/9a808bbb-8cdf-4a30-ba45-ce4f1dbb5b6d)
   *Diagram of key phrase extraction process*  
-  
-**NOTE**: I don't have access to the data warehouse anymore, so there is an error when using the Power BI dashboard (PowerBIDashboard.png). However, I have attached 
-  an image of what the missing visuals should look like (check App.png)
+
+**NOTE**: I don't have access to the data warehouse anymore, so there is an error when using the Power BI dashboard (PowerBIDashboard.png). However, I have attached an image of what the missing visuals should look like (check App.png)
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/bf054830-bb14-4dab-b42e-d37434779875)
   *Power BI Dashboard with error*
 
