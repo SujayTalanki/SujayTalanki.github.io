@@ -21,7 +21,7 @@
 * NOTE: I don't have access to the data warehouse anymore, so there is an error when using the Power BI dashboard (PowerBIDashboard.png). However, I have attached 
   an image of what the missing visuals should look like (check App.png)
 
-## [Operating Expense (OpEx) Variance Analysis]()
+## [Operating Expense (OpEx) Variance Analysis](https://github.com/SujayTalanki/OperationalExpenseVarianceAnalysis)
 * Background: The company had budgets for each operational expense (OpEx). If the actual expense for the quarter missed the budget, an accountant would leave a comment for the reason behind the
   "variance" (budget miss). I was tasked with categorizing the general reasons behind these variances.
 * Result: Applied unsupervised learning algorithms (NLP) to create 10 evenly distributed categories that classified 20,000+ OpEx variance comments. This project allowed accountants and analysts
