@@ -32,7 +32,7 @@
   *Power BI Dashboard with error*
 
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/08406169-9e29-4f00-ac05-82aedf09f7c9)
-  *Image of the missing Power BI visual*
+  *Image of the missing Power BI visual (created using Plotly and Dash packages)*
 
 ## [Operational Expense (OpEx) Variance Analysis](https://github.com/SujayTalanki/OperationalExpenseVarianceAnalysis)
 * Background: The company had budgets for each operational expense (OpEx). If the actual expense for the quarter missed the budget, an accountant would leave a comment for the reason behind the
