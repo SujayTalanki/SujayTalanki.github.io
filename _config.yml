@@ -1,2 +1,5 @@
+remote_theme: pages-themes/cayman@v0.2.0
+title: Sujay Talanki's Data Science Portfolio
 description: Data Science Student @ UC San Diego | Interested in Machine Learning, AI, LLMs, and cloud computing
-theme: jekyll-theme-cayman
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
