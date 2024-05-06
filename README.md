@@ -1,3 +1,9 @@
+## [Enhancing NanoGPT via Squentropy Loss and Hyperparameter Tuning](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis)
+* Formulated a custom and hybrid squentropy loss function to minimize empirical risk via PyTorch methods
+* Created script to calculate model perplexity (metric that determines how "perplexed" a model is when predicting its next token; lower perplexity indicates better performance)
+* Conducted large-scale hyperparameter tuning via distributed data parallel methods to attain 1.8 loss and 5.2 perplexity
+* Employed Python, numpy, pytorch, and pickle
+
 ## [Movie Recommender System](https://github.com/SujayTalanki/MovieRecommendationSystem)
 * Engineered a content-based recommender system using NLP that takes in a movie and recommends 10 similar movies based on movie attributes and rating
 * Considered movies' description, cast, director, genre, and average rating to suggest movies that the user would enjoy
@@ -60,8 +66,8 @@
 
 ## [Netflix Stock Price Prediction](https://github.com/SujayTalanki/Netflix-Stock-Prediction)
 * Assembled an LSTM Neural Network to predict the closing price of Netflix stock using the last 60 days of time series data
-* LSTM Neural Network contained 3 LSTM layers of size 50 neurons, followed by 3 drouput layers (20%) and 1 dense layer
-* Adjusting the batch size to 32 and training for 50 epochs resulted in the best performance (~ 4.5 RMSE)
+* LSTM Neural Network contained 3 LSTM layers of 50 neurons each, followed by 3 drouput layers (20%) and 1 dense layer
+* Tuned the batch size to 32 and number of training epochs to 50 in order to acheive optimal performance (~ 4.5 RMSE)
 
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/cf51caeb-3c63-4c3d-a28d-3663401856e4)
 
