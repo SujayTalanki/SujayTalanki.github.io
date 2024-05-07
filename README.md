@@ -1,5 +1,5 @@
 ## [Enhancing NanoGPT via Squentropy Loss and Hyperparameter Tuning](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis)
-* [**Report of Findings**](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis/blob/main/DSC180BFinalReport.pdf), [**Website**](https://akshatm1011.github.io/Optimizing-NanoGPT/)
+* [**Report of Findings**](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis/blob/main/DSC180BFinalReport.pdf), [**Website**](https://akshatm1011.github.io/Optimizing-NanoGPT/), [**Poster**](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis/blob/main/NanoGPTPoster.pdf)
 * Formulated a custom and hybrid squentropy loss function to minimize empirical risk via PyTorch methods
 * Created script to calculate model perplexity (metric that determines how "perplexed" a model is when predicting its next token; lower perplexity indicates better performance)
 * Conducted large-scale hyperparameter tuning via distributed data parallel methods to attain 1.8 loss and 5.2 perplexity
