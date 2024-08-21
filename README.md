@@ -10,14 +10,6 @@
 *Squentropy Loss Formula and PyTorch Code*
 * Employed Python, numpy, pytorch, and pickle
 
-## [Movie Recommender System](https://github.com/SujayTalanki/MovieRecommendationSystem)
-* Engineered a content-based recommender system using NLP that takes in a movie and recommends 10 similar movies based on movie attributes and rating
-* Considered movies' description, cast, director, genre, and average rating to suggest movies that the user would enjoy
-* Conducted preprocessing and feature engineering to ensure data quality and enhance model performance
-* Employed CountVectorizer and cosine similarity metric to suggest many similar movies. Retrieved the top 10 highest rated movies from this selection
-  to suggest to the user
-* Utilized Python pandas, nltk, sklearn
-
 ## [Top 10 Property Essentials](https://github.com/SujayTalanki/Top10PropertyEssentials)
 * Background: The company had many properties, each of which had 10 areas that inspectors were required to assess; inspectors left comments regarding the condition of each area
 * Result: Produced a Power BI dashboard that allows business analysts to extract information from 5,000+ inspectors’ comments regarding the condition of 5,000+ 
@@ -49,7 +41,7 @@
   "variance" (budget miss). I was tasked with categorizing the general reasons behind these variances.
 * Result: Applied unsupervised learning algorithms (NLP and Clustering) to create 10 evenly distributed categories that classified 20,000+ OpEx variance comments. This project allowed accountants and analysts
   to understand/analyze the reasons behind OpEx variances to prevent occurances in the future!
-* Reduced workload by ~ 60% and achieved ~ 80% accuracy on hold-out set
+* Reduced workload by ~ 62% and achieved ~ 78% accuracy on hold-out set
 * Developed a python pipeline (pandas, nltk, sentence_transformers, sklearn) that embedded sentences into vectors (BERT LLM) and utilized K-Means clustering to categorize OpEx variance comments
 * Launched a local app (python: plotly and dash) to visualize the key phrases per category. This was used to help analysts summarize the content of the 20,000+ comments
   
@@ -57,9 +49,17 @@
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/aca14f93-f34c-47b7-be88-faa24ccc679f)
   *Diagram of process*
 
+## [Movie Recommender System](https://github.com/SujayTalanki/MovieRecommendationSystem)
+* Engineered a content-based recommender system using NLP that takes in a movie and recommends 10 similar movies based on movie attributes and rating
+* Considered movies' description, cast, director, genre, and average rating to suggest movies that the user would enjoy
+* Conducted preprocessing and feature engineering to ensure data quality and enhance model performance
+* Employed CountVectorizer and cosine similarity metric to suggest many similar movies. Retrieved the top 10 highest rated movies from this selection
+  to suggest to the user
+* Utilized Python pandas, nltk, sklearn
+
 ## [Flight Delays Prediction](https://github.com/SujayTalanki/FlightDelaysPrediction)
 * Pioneered a machine learning pipeline to predict the severity of a flight’s delay (1M+ flights)
-* Performted EDA, feature engineering, cross validation, and hyperparameter tuning (GridSearchCV) to optimize a LightGBM model that achieved 95% accuracy
+* Performted EDA, feature engineering, cross validation, and hyperparameter tuning (GridSearchCV) to optimize a LightGBM model that achieved 94% accuracy
 * Tools: Python (numpy, pandas, sklearn, LightGBM, XGBoost, GridSearchCV)
 
 **Report of Findings:**
@@ -78,9 +78,9 @@
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/cf51caeb-3c63-4c3d-a28d-3663401856e4)
 
 ## [Lead Scoring Model](https://github.com/SujayTalanki/Lead-Scoring)
-* Developed a lead scoring model using supervised machine learning algorithms to predict the probability that a loan ("lead") is funded with 95% accuracy
+* Developed a lead scoring model using supervised machine learning algorithms to predict the probability that a loan ("lead") is funded with 93% accuracy
 * After performing cross validation and comparing with several models, the LightGBM classifier performed optimally
-* Led to a profit of ~ $333,000 (in our scenario, assuming a converted lead yields $120 and the time/effort costs around $15)
+* Led to a profit of ~ $399,000 (in our scenario, assuming a converted lead yields $120 and the time/effort costs around $15)
 * Tools used: Python (Pandas and PyCaret)
 
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/b69a5ebe-63f5-4cb1-b12b-9ab41831d09a)
