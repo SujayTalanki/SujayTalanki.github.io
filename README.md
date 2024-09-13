@@ -80,7 +80,7 @@
 ## [Lead Scoring Model](https://github.com/SujayTalanki/Lead-Scoring)
 * Developed a lead scoring model using supervised machine learning algorithms to predict the probability that a loan ("lead") is funded with 93% accuracy
 * After performing cross validation and comparing with several models, the LightGBM classifier performed optimally
-* Led to a profit of ~ $399,000 (in our scenario, assuming a converted lead yields $120 and the time/effort costs around $15)
+* Led to a profit of ~ $300,000 (in our scenario, assuming a converted lead yields $120 and the time/effort costs around $15)
 * Tools used: Python (Pandas and PyCaret)
 
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/b69a5ebe-63f5-4cb1-b12b-9ab41831d09a)
