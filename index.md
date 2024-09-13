@@ -10,13 +10,16 @@ title: "Sujay Talanki's Data Science Portfolio"
 * Validated the model using a test set comprising unseen aerial footage from different environments.
 * Leveraged Python, cv2, PyTorch, YOLO, Roboflow
 
-**Prediction on Test Set Images:**
+**Prediction on Test Set Images:**  
+
 ![image](https://github.com/user-attachments/assets/883f8ce8-2583-402f-a263-d0d88ac85508)
 
-**Confusion Matrix:**
+**Confusion Matrix:**  
+
 ![image](https://github.com/user-attachments/assets/8ad546a3-e687-4e60-8f44-93a0471f990e)
 
-**F1 vs. Confidence Curve:**
+**F1 vs. Confidence Curve:**  
+
 ![image](https://github.com/user-attachments/assets/588f9542-fe14-47bd-8cfc-2a479791c8e0)
 
 ## [Enhancing NanoGPT via Squentropy Loss and Hyperparameter Tuning](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis)
@@ -28,9 +31,11 @@ title: "Sujay Talanki's Data Science Portfolio"
 * Employed Python, numpy, pytorch, and pickle
 
 **Poster:**  
+
 ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/a9dc6010-040a-4204-90b7-4530035587c5)
 
 **Formula and Code:**  
+
 ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/cc1a3a78-3ff8-49a5-8668-755d9d001545)
 
 
@@ -45,7 +50,8 @@ title: "Sujay Talanki's Data Science Portfolio"
 * Analysts could filter the results based on the market, region, property type, property manager, etc. in order to visualize the performance
   of select facilities
   
-**Workflow Diagrams:**
+**Workflow Diagrams:**  
+
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/c9d46a86-27ae-4474-a0b0-4ca1707138a0)
   *Diagram of sentiment encoding process*
 
@@ -54,7 +60,8 @@ title: "Sujay Talanki's Data Science Portfolio"
 
 **Power BI Dashboard:**  
 **NOTE**: I don't have access to the data warehouse anymore, so there is an error when using the Power BI dashboard (PowerBIDashboard.png). However, I have 
-  attached an image of what the missing visuals should look like (check App.png)
+  attached an image of what the missing visuals should look like (check App.png)  
+  
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/bf054830-bb14-4dab-b42e-d37434779875)
   *Power BI Dashboard with error*
 
@@ -70,7 +77,8 @@ title: "Sujay Talanki's Data Science Portfolio"
 * Developed a python pipeline (pandas, nltk, sentence_transformers, sklearn) that embedded sentences into vectors (BERT LLM) and utilized K-Means clustering to categorize OpEx variance comments
 * Launched a local app (python: plotly and dash) to visualize the key phrases per category. This was used to help analysts summarize the content of the 20,000+ comments
   
-**Workflow Diagram:**
+**Workflow Diagram:**  
+
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/aca14f93-f34c-47b7-be88-faa24ccc679f)
 
 ## [Movie Recommender System](https://github.com/SujayTalanki/MovieRecommendationSystem)
@@ -87,11 +95,11 @@ title: "Sujay Talanki's Data Science Portfolio"
 * Performted EDA, feature engineering, cross validation, and hyperparameter tuning (GridSearchCV) to optimize a LightGBM model that achieved 94% accuracy
 * Tools: Python (numpy, pandas, sklearn, LightGBM, XGBoost, GridSearchCV)
 
-**Report of Findings:**
+**Report of Findings:**  
 
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/064e25c8-dcc5-4e85-ad3d-6e7af827c064)  
 
-**Metrics:**
+**Metrics:**  
 
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/21ace0ee-94c4-46b6-aa46-f252a691e280)  
 
@@ -100,7 +108,8 @@ title: "Sujay Talanki's Data Science Portfolio"
 * LSTM Neural Network contained 3 LSTM layers of 50 neurons each, followed by 3 drouput layers (20%) and 1 dense layer
 * Tuned the batch size to 32 and number of training epochs to 50 in order to acheive optimal performance (~ 4.5 RMSE)
 
-**Prediction:**
+**Prediction:**  
+
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/cf51caeb-3c63-4c3d-a28d-3663401856e4)
 
 ## [Lead Scoring Model](https://github.com/SujayTalanki/Lead-Scoring)
@@ -109,7 +118,7 @@ title: "Sujay Talanki's Data Science Portfolio"
 * Led to a profit of ~ $300,000 (in our scenario, assuming a converted lead yields $120 and the time/effort costs around $15)
 * Tools used: Python (Pandas and PyCaret)
 
-**ROC Curve:**
+**ROC Curve:**  
 
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/b69a5ebe-63f5-4cb1-b12b-9ab41831d09a)
 
