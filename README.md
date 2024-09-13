@@ -8,15 +8,12 @@
 
 **Prediction on Test Set Images:**
 ![image](https://github.com/SujayTalanki/DroneDetection/blob/main/model_results/validation_results_1.jpg)
-*Prediction on Subset of Test Set*
 
 **Confusion Matrix:**
 ![image](https://github.com/SujayTalanki/DroneDetection/blob/main/model_results/confusion_matrix.png)
-*Confusion Matrix*
 
 **F1 vs. Confidence Curve**
 ![image](https://github.com/SujayTalanki/DroneDetection/blob/main/model_results/F1_curve.png)
-*F1 Curve*
 
 ## [Enhancing NanoGPT via Squentropy Loss and Hyperparameter Tuning](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis)
 * [**Report of Findings**](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis/blob/main/DSC180BFinalReport.pdf), [**Website**](https://akshatm1011.github.io/Optimizing-NanoGPT/), [**Poster**](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis/blob/main/NanoGPTPoster.pdf)
@@ -48,6 +45,7 @@
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/9a808bbb-8cdf-4a30-ba45-ce4f1dbb5b6d)
   *Diagram of key phrase extraction process*  
 
+**Power BI Dashboard**
 **NOTE**: I don't have access to the data warehouse anymore, so there is an error when using the Power BI dashboard (PowerBIDashboard.png). However, I have 
   attached an image of what the missing visuals should look like (check App.png)
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/bf054830-bb14-4dab-b42e-d37434779875)
@@ -67,7 +65,6 @@
   
 **Workflow of Process**
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/aca14f93-f34c-47b7-be88-faa24ccc679f)
-  *Diagram of process*
 
 ## [Movie Recommender System](https://github.com/SujayTalanki/MovieRecommendationSystem)
 * Engineered a content-based recommender system using NLP that takes in a movie and recommends 10 similar movies based on movie attributes and rating
@@ -85,16 +82,17 @@
 **Report of Findings:**
 
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/064e25c8-dcc5-4e85-ad3d-6e7af827c064)  
-  *Report*
+
+**Metrics:**
 
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/21ace0ee-94c4-46b6-aa46-f252a691e280)  
-  *Summary of metrics*
 
 ## [Netflix Stock Price Prediction](https://github.com/SujayTalanki/Netflix-Stock-Prediction)
 * Assembled an LSTM Neural Network to predict the closing price of Netflix stock using the last 60 days of time series data
 * LSTM Neural Network contained 3 LSTM layers of 50 neurons each, followed by 3 drouput layers (20%) and 1 dense layer
 * Tuned the batch size to 32 and number of training epochs to 50 in order to acheive optimal performance (~ 4.5 RMSE)
 
+**Prediction:**
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/cf51caeb-3c63-4c3d-a28d-3663401856e4)
 
 ## [Lead Scoring Model](https://github.com/SujayTalanki/Lead-Scoring)
@@ -103,6 +101,7 @@
 * Led to a profit of ~ $300,000 (in our scenario, assuming a converted lead yields $120 and the time/effort costs around $15)
 * Tools used: Python (Pandas and PyCaret)
 
+**ROC Curve:**
+
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/b69a5ebe-63f5-4cb1-b12b-9ab41831d09a)
-  *ROC Curve*
 
