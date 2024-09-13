@@ -3,3 +3,9 @@ plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: "Sujay Talanki's Data Science Portfolio"
 description: "Data Scientist | Interested in Machine Learning, AI, LLMs, and cloud computing"
+
+navbar:
+  - title: "Home"
+    url: "/"
+  - title: "Project 1: Aerial Object Detection"
+    url: "/project1"
