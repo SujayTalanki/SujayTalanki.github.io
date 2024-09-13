@@ -12,7 +12,7 @@
 **Confusion Matrix:**
 ![image](https://github.com/user-attachments/assets/8ad546a3-e687-4e60-8f44-93a0471f990e)
 
-**F1 vs. Confidence Curve**
+**F1 vs. Confidence Curve:**
 ![image](https://github.com/user-attachments/assets/588f9542-fe14-47bd-8cfc-2a479791c8e0)
 
 ## [Enhancing NanoGPT via Squentropy Loss and Hyperparameter Tuning](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis)
@@ -45,7 +45,6 @@
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/9a808bbb-8cdf-4a30-ba45-ce4f1dbb5b6d)
   *Diagram of key phrase extraction process*  
 
-
 **Power BI Dashboard:**  
 **NOTE**: I don't have access to the data warehouse anymore, so there is an error when using the Power BI dashboard (PowerBIDashboard.png). However, I have 
   attached an image of what the missing visuals should look like (check App.png)
@@ -76,6 +75,7 @@
 * Utilized Python pandas, nltk, sklearn
 
 ## [Flight Delays Prediction](https://github.com/SujayTalanki/FlightDelaysPrediction)
+* [**Report of Findings**](https://github.com/SujayTalanki/FlightDelaysPrediction/blob/master/report.pdf)
 * Pioneered a machine learning pipeline to predict the severity of a flight’s delay (1M+ flights)
 * Performted EDA, feature engineering, cross validation, and hyperparameter tuning (GridSearchCV) to optimize a LightGBM model that achieved 94% accuracy
 * Tools: Python (numpy, pandas, sklearn, LightGBM, XGBoost, GridSearchCV)
