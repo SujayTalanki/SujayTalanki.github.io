@@ -7,13 +7,13 @@
 * Leveraged Python, cv2, PyTorch, YOLO, Roboflow
 
 **Prediction on Test Set Images:**
-![image](https://github.com/SujayTalanki/DroneDetection/blob/main/model_results/validation_results_1.jpg)
+![image](https://github.com/user-attachments/assets/883f8ce8-2583-402f-a263-d0d88ac85508)
 
 **Confusion Matrix:**
-![image](https://github.com/SujayTalanki/DroneDetection/blob/main/model_results/confusion_matrix.png)
+![image](https://github.com/user-attachments/assets/8ad546a3-e687-4e60-8f44-93a0471f990e)
 
 **F1 vs. Confidence Curve**
-![image](https://github.com/SujayTalanki/DroneDetection/blob/main/model_results/F1_curve.png)
+![image](https://github.com/user-attachments/assets/588f9542-fe14-47bd-8cfc-2a479791c8e0)
 
 ## [Enhancing NanoGPT via Squentropy Loss and Hyperparameter Tuning](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis)
 * [**Report of Findings**](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis/blob/main/DSC180BFinalReport.pdf), [**Website**](https://akshatm1011.github.io/Optimizing-NanoGPT/), [**Poster**](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis/blob/main/NanoGPTPoster.pdf)
@@ -38,14 +38,15 @@
 * Analysts could filter the results based on the market, region, property type, property manager, etc. in order to visualize the performance
   of select facilities
   
-**Workflow diagrams**
+**Workflow Diagrams:**
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/c9d46a86-27ae-4474-a0b0-4ca1707138a0)
   *Diagram of sentiment encoding process*
 
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/9a808bbb-8cdf-4a30-ba45-ce4f1dbb5b6d)
   *Diagram of key phrase extraction process*  
 
-**Power BI Dashboard**
+
+**Power BI Dashboard:**  
 **NOTE**: I don't have access to the data warehouse anymore, so there is an error when using the Power BI dashboard (PowerBIDashboard.png). However, I have 
   attached an image of what the missing visuals should look like (check App.png)
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/bf054830-bb14-4dab-b42e-d37434779875)
@@ -63,7 +64,7 @@
 * Developed a python pipeline (pandas, nltk, sentence_transformers, sklearn) that embedded sentences into vectors (BERT LLM) and utilized K-Means clustering to categorize OpEx variance comments
 * Launched a local app (python: plotly and dash) to visualize the key phrases per category. This was used to help analysts summarize the content of the 20,000+ comments
   
-**Workflow of Process**
+**Workflow Diagram:**
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/aca14f93-f34c-47b7-be88-faa24ccc679f)
 
 ## [Movie Recommender System](https://github.com/SujayTalanki/MovieRecommendationSystem)
