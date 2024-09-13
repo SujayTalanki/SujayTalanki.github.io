@@ -5,10 +5,16 @@
 * Utilized RayTune to search for optimal hyperparameters and MLflow to track the results for different model configurations
 * Validated the model using a test set comprising unseen aerial footage from different environments.
 * Leveraged Python, cv2, PyTorch, YOLO, Roboflow
+
+**Prediction on Test Set Images:**
 ![image](https://github.com/SujayTalanki/DroneDetection/blob/main/model_results/validation_results_1.jpg)
 *Prediction on Subset of Test Set*
+
+**Confusion Matrix:**
 ![image](https://github.com/SujayTalanki/DroneDetection/blob/main/model_results/confusion_matrix.png)
 *Confusion Matrix*
+
+**F1 vs. Confidence Curve**
 ![image](https://github.com/SujayTalanki/DroneDetection/blob/main/model_results/F1_curve.png)
 *F1 Curve*
 
