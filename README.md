@@ -27,7 +27,6 @@
 
 **Formula and Code:**  
 ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/cc1a3a78-3ff8-49a5-8668-755d9d001545)
-*Squentropy Loss Formula and PyTorch Code*
 
 
 ## [Top 10 Property Essentials](https://github.com/SujayTalanki/Top10PropertyEssentials)
