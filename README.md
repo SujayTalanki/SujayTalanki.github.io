@@ -1,3 +1,11 @@
+## [Aerial Object Detection: Differentiating Drones, Birds, and Airplanes](https://github.com/SujayTalanki/DroneDetection)
+* Curated a diverse dataset of 1500+ drone, bird, and airplane images/videos from various sources.
+* Augmented the dataset with varied lighting conditions, angles, cropping, shear, and background noise to simulate real-world conditions.
+* Trained a YOLOv8 model that achieved 91% precision, 89% recall, and 89% mAP for all classes
+* Utilized RayTune to search for optimal hyperparameters and MLflow to track the results for different model configurations
+* Validated the model using a test set comprising unseen aerial footage from different environments.
+* Leveraged Python, cv2, PyTorch, YOLO, Roboflow
+
 ## [Enhancing NanoGPT via Squentropy Loss and Hyperparameter Tuning](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis)
 * [**Report of Findings**](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis/blob/main/DSC180BFinalReport.pdf), [**Website**](https://akshatm1011.github.io/Optimizing-NanoGPT/), [**Poster**](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis/blob/main/NanoGPTPoster.pdf)
 * Formulated a custom and hybrid squentropy loss function to minimize empirical risk via PyTorch methods
