@@ -1,5 +1,5 @@
 ## [Aerial Object Detection: Differentiating Drones, Birds, and Airplanes](https://github.com/SujayTalanki/DroneDetection)
-* Curated a diverse dataset of 1500+ drone, bird, and airplane images/videos from various sources.
+* Curated a diverse dataset of 2000+ drone, bird, and airplane images/videos from various sources.
 * Augmented the dataset with varied lighting conditions, angles, cropping, shear, and background noise to simulate real-world conditions.
 * Trained a YOLOv8 model that achieved 91% precision, 89% recall, and 89% mAP for all classes
 * Utilized RayTune to search for optimal hyperparameters and MLflow to track the results for different model configurations
