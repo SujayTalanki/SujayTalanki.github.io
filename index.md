@@ -26,7 +26,7 @@ title: "Sujay Talanki's Data Science Portfolio"
 * Conducted large-scale hyperparameter tuning via distributed data parallel methods to attain 1.8 loss and 5.2 perplexity
   - Hyperparameters tuned include learning rate, dropout rate, and number of layers
 * Employed Python, numpy, pytorch, and pickle
-  
+
 **Poster:**  
 ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/a9dc6010-040a-4204-90b7-4530035587c5)
 
