@@ -1,3 +1,7 @@
+---
+layout: default
+title: "Sujay Talanki's Data Science Portfolio"
+---
 ## [Aerial Object Detection: Differentiating Drones, Birds, and Airplanes](https://github.com/SujayTalanki/DroneDetection)
 * Curated a diverse dataset of 2000+ drone, bird, and airplane images/videos from various sources.
 * Augmented the dataset with varied lighting conditions, angles, cropping, shear, and background noise to simulate real-world conditions.
