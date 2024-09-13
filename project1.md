@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Enhancing NanoGPT via Squentropy Loss and Hyperparameter Tuning"
+permalink: /project1/
+---
+
 ## [Enhancing NanoGPT via Squentropy Loss and Hyperparameter Tuning](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis)
 * [**Report of Findings**](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis/blob/main/DSC180BFinalReport.pdf), [**Website**](https://akshatm1011.github.io/Optimizing-NanoGPT/), [**Poster**](https://github.com/sujen07/NanoGPT-Loss-Stop-Analysis/blob/main/NanoGPTPoster.pdf)
 * Formulated a custom and hybrid squentropy loss function to minimize empirical risk via PyTorch methods
