@@ -5,10 +5,10 @@ title: "Sujay Talanki's Data Science Portfolio"
 ## [Aerial Object Detection: Differentiating Drones, Birds, and Airplanes](https://github.com/SujayTalanki/DroneDetection)
 * Curated a diverse dataset of 2000+ drone, bird, and airplane images/videos from various sources.
 * Augmented the dataset with varied lighting conditions, angles, cropping, shear, and background noise to simulate real-world conditions.
-* Trained a YOLOv8 model that achieved 91% precision, 89% recall, and 89% mAP for all classes
+* Fine-tuned a YOLOv8 model that achieved 91% precision, 89% recall, and 89% mAP for all classes
 * Utilized RayTune to search for optimal hyperparameters and MLflow to track the results for different model configurations
 * Validated the model using a test set comprising unseen aerial footage from different environments.
-* Leveraged Python, cv2, PyTorch, YOLO, Roboflow
+* Tools: Python (Cv2, PyTorch) YOLOv8 (Computer Vision model), Roboflow (Data preprocessing, augmentation, and annotation service)
 
 **Prediction on Test Set Images:**  
 
@@ -28,7 +28,7 @@ title: "Sujay Talanki's Data Science Portfolio"
 * Developed script to calculate model perplexity (metric that determines how "perplexed" a model is when predicting its next token; lower perplexity indicates better performance)
 * Conducted large-scale hyperparameter tuning via distributed data parallel methods to attain 1.8 loss and 5.2 perplexity
   - Hyperparameters tuned include learning rate, dropout rate, and number of layers
-* Employed Python, numpy, pytorch, and pickle
+* Tools: Python (Numpy, Pytorch, Pickle), AWS
 
 **Poster:**  
 
@@ -43,11 +43,11 @@ title: "Sujay Talanki's Data Science Portfolio"
 * Background: The company had many properties, each of which had 10 areas that inspectors were required to assess; inspectors left comments regarding the condition of each area
 * Result: Produced a Power BI dashboard that allows business analysts to extract information from 5,000+ inspectors’ comments regarding the condition of 5,000+ 
   properties. 
-* Leveraged Python (pandas, nltk, sentence_transformers, sklearn), Snowflake (SQL), Power Query, and Power BI to create a pipeline that produced
-  meaningful conclusions from raw text data
-* Implemented a key phrase extraction feature, sentiment analysis classifier (NLP), and Power BI visualizations to analyze
-  comments on an aggregate level according to user-selected attributes
-* Analysts could filter the results based on the market, region, property type, property manager, etc. in order to visualize the performance
+* Leveraged Python (Numpy, Pandas, Nltk, Sentence_transformers, Sklearn), Snowflake (SQL), Power Query, and Power BI to create a pipeline that transformed raw data (20,000 entries) into
+  actionable insights.
+* Implemented a key phrase extraction feature, sentiment analysis classifier (NLP), and Power BI visualizations to uncover insights from 5,000
+  inspectors' comments, informing strategic decisions and delivering actionable insights.
+* Analysts can filter the results to analyze performance based on the market, region, property type, property manager, etc. in order to visualize the performance
   of select facilities
   
 **Workflow Diagrams:**  
@@ -75,7 +75,7 @@ title: "Sujay Talanki's Data Science Portfolio"
   to understand/analyze the reasons behind OpEx variances to prevent occurances in the future!
 * Reduced workload by ~ 62% and achieved ~ 78% accuracy on hold-out set
 * Developed a python pipeline (pandas, nltk, sentence_transformers, sklearn) that embedded sentences into vectors (BERT LLM) and utilized K-Means clustering to categorize OpEx variance comments
-* Launched a local app (python: plotly and dash) to visualize the key phrases per category. This was used to help analysts summarize the content of the 20,000+ comments
+* Launched a local app (python: plotly and dash) to visualize the key phrases per category. This was used to help analysts summarize the content of the 20,000+ comments.
   
 **Workflow Diagram:**  
 
@@ -87,13 +87,13 @@ title: "Sujay Talanki's Data Science Portfolio"
 * Conducted preprocessing and feature engineering to ensure data quality and enhance model performance
 * Employed CountVectorizer and cosine similarity metric to suggest many similar movies. Retrieved the top 10 highest rated movies from this selection
   to suggest to the user
-* Utilized Python pandas, nltk, sklearn
+* Tools: Python (Numpy, Pandas, Nltk, Sklearn)
 
 ## [Flight Delays Prediction](https://github.com/SujayTalanki/FlightDelaysPrediction)
 * [**Report of Findings**](https://github.com/SujayTalanki/FlightDelaysPrediction/blob/master/report.pdf)
 * Pioneered a machine learning pipeline to predict the severity of a flight’s delay (1M+ flights)
 * Performted EDA, feature engineering, cross validation, and hyperparameter tuning (GridSearchCV) to optimize a LightGBM model that achieved 94% accuracy
-* Tools: Python (numpy, pandas, sklearn, LightGBM, XGBoost, GridSearchCV)
+* Tools: Python (Numpy, Pandas, Sklearn, LightGBM, XGBoost, GridSearchCV)
 
 **Report of Findings:**  
 
@@ -107,6 +107,7 @@ title: "Sujay Talanki's Data Science Portfolio"
 * Assembled an LSTM Neural Network to predict the closing price of Netflix stock using the last 60 days of time series data
 * LSTM Neural Network contained 3 LSTM layers of 50 neurons each, followed by 3 drouput layers (20%) and 1 dense layer
 * Tuned the batch size to 32 and number of training epochs to 50 in order to acheive optimal performance (~ 4.5 RMSE)
+* Tools: 
 
 **Prediction:**  
 
@@ -116,7 +117,7 @@ title: "Sujay Talanki's Data Science Portfolio"
 * Developed a lead scoring model using supervised machine learning algorithms to predict the probability that a loan ("lead") is funded with 93% accuracy
 * After performing cross validation and comparing with several models, the LightGBM classifier performed optimally
 * Led to a profit of ~ $300,000 (in our scenario, assuming a converted lead yields $120 and the time/effort costs around $15)
-* Tools used: Python (Pandas and PyCaret)
+* Tools: Python (Pandas and PyCaret)
 
 **ROC Curve:**  
 
