@@ -40,15 +40,12 @@ title: "Sujay Talanki's Data Science Portfolio"
 
 
 ## [Top 10 Property Essentials](https://github.com/SujayTalanki/Top10PropertyEssentials)
-* Background: The company had many properties, each of which had 10 areas that inspectors were required to assess; inspectors left comments regarding the condition of each area
-* Result: Produced a Power BI dashboard that allows business analysts to extract information from 5,000+ inspectors’ comments regarding the condition of 5,000+ 
-  properties. 
-* Leveraged Python (Numpy, Pandas, Nltk, Sentence_transformers, Sklearn), Snowflake (SQL), Power Query, and Power BI to create a pipeline that transformed raw data (20,000 entries) into
-  actionable insights.
-* Implemented a key phrase extraction feature, sentiment analysis classifier (NLP), and Power BI visualizations to uncover insights from 5,000
-  inspectors' comments, informing strategic decisions and delivering actionable insights.
+* Background: The company had many properties, each of which had 10 areas that inspectors were required to assess; inspectors left comments regarding the condition of each area.
+* Result: Designed a Power BI dashboard using Python, Snowflake, and unsupervised learning algorithms to analyze 20,000+ facilities, communicating insights to non-technical stakeholders.
+* Applied key phrase extraction, sentiment analysis classifier, and visualizations to uncover insights from 5,000+ inspector comments, enabling data-driven decisions and driving business improvements.
 * Analysts can filter the results to analyze performance based on the market, region, property type, property manager, etc. in order to visualize the performance
-  of select facilities
+  of select facilities.
+* Tools used: Python (Numpy, Pandas, Nltk, Sentence_transformers, Sklearn), Snowflake (SQL), Power Query, and Power BI.
   
 **Workflow Diagrams:**  
 
@@ -71,10 +68,10 @@ title: "Sujay Talanki's Data Science Portfolio"
 ## [Operational Expense (OpEx) Variance Analysis](https://github.com/SujayTalanki/OperationalExpenseVarianceAnalysis)
 * Background: The company had budgets for each operational expense (OpEx). If the actual expense for the quarter missed the budget, an accountant would leave a comment for the reason behind the
   "variance" (budget miss). I was tasked with categorizing the general reasons behind these variances.
-* Result: Applied unsupervised learning algorithms (NLP and Clustering) to create 10 evenly distributed categories that classified 20,000+ OpEx variance comments. This project allowed accountants and analysts
+* Result: Applied unsupervised learning algorithms (NLP and Clustering) to create 10 evenly distributed categories that classified 20,000+ OpEx variance comments. This project allowed accountants and analysts.
   to understand/analyze the reasons behind OpEx variances to prevent occurances in the future!
-* Reduced workload by ~ 62% and achieved ~ 78% accuracy on hold-out set
-* Developed a python pipeline (pandas, nltk, sentence_transformers, sklearn) that embedded sentences into vectors (BERT LLM) and utilized K-Means clustering to categorize OpEx variance comments
+* Reduced workload significantly and achieved ~ 78% accuracy on hold-out set.
+* Developed a python pipeline (pandas, nltk, sentence_transformers, sklearn) that embedded sentences into vectors (BERT LLM) and utilized K-Means clustering to categorize OpEx variance comments.
 * Launched a local app (python: plotly and dash) to visualize the key phrases per category. This was used to help analysts summarize the content of the 20,000+ comments.
   
 **Workflow Diagram:**  
@@ -82,18 +79,18 @@ title: "Sujay Talanki's Data Science Portfolio"
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/aca14f93-f34c-47b7-be88-faa24ccc679f)
 
 ## [Movie Recommender System](https://github.com/SujayTalanki/MovieRecommendationSystem)
-* Engineered a content-based recommender system using NLP that takes in a movie and recommends 10 similar movies based on movie attributes and rating
-* Considered movies' description, cast, director, genre, and average rating to suggest movies that the user would enjoy
-* Conducted preprocessing and feature engineering to ensure data quality and enhance model performance
+* Engineered a content-based recommender system using NLP that takes in a movie and recommends 10 similar movies based on movie attributes and rating.
+* Considered movies' description, cast, director, genre, and average rating to suggest movies that the user would enjoy.
+* Conducted preprocessing and feature engineering to ensure data quality and enhance model performance.
 * Employed CountVectorizer and cosine similarity metric to suggest many similar movies. Retrieved the top 10 highest rated movies from this selection
-  to suggest to the user
-* Tools: Python (Numpy, Pandas, Nltk, Sklearn)
+  to suggest to the user.
+* Tools used: Python (Numpy, Pandas, Nltk, Sklearn).
 
 ## [Flight Delays Prediction](https://github.com/SujayTalanki/FlightDelaysPrediction)
 * [**Report of Findings**](https://github.com/SujayTalanki/FlightDelaysPrediction/blob/master/report.pdf)
-* Pioneered a machine learning pipeline to predict the severity of a flight’s delay (1M+ flights)
-* Performted EDA, feature engineering, cross validation, and hyperparameter tuning (GridSearchCV) to optimize a LightGBM model that achieved 94% accuracy
-* Tools: Python (Numpy, Pandas, Sklearn, LightGBM, XGBoost, GridSearchCV)
+* Constructed a machine learning pipeline to predict the severity of a flight’s delay (1M+ flights).
+* Performed EDA, feature engineering, cross validation, and hyperparameter tuning (GridSearchCV) to optimize an XGBoost model that achieved 94% accuracy.
+* Tools used: Python (Numpy, Pandas, Sklearn, LightGBM, XGBoost, GridSearchCV).
 
 **Report of Findings:**  
 
@@ -104,20 +101,20 @@ title: "Sujay Talanki's Data Science Portfolio"
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/21ace0ee-94c4-46b6-aa46-f252a691e280)  
 
 ## [Netflix Stock Price Prediction](https://github.com/SujayTalanki/Netflix-Stock-Prediction)
-* Assembled an LSTM Neural Network to predict the closing price of Netflix stock using the last 60 days of time series data
-* LSTM Neural Network contained 3 LSTM layers of 50 neurons each, followed by 3 drouput layers (20%) and 1 dense layer
-* Tuned the batch size to 32 and number of training epochs to 50 in order to acheive optimal performance (~ 4.5 RMSE)
-* Tools: 
+* Assembled an LSTM Neural Network to predict the closing price of Netflix stock using the last 60 days of time series data.
+* LSTM Neural Network contained 3 LSTM layers of 50 neurons each, followed by 3 drouput layers (20%) and 1 dense layer.
+* Tuned the batch size to 32 and number of training epochs to 50 in order to acheive optimal performance (~ 4.5 RMSE).
+* Tools used: Python (Numpy, Pandas, Matplotlib, TensorFlow, Sklearn).
 
 **Prediction:**  
 
   ![image](https://github.com/SujayTalanki/SujayTalanki.github.io/assets/91350869/cf51caeb-3c63-4c3d-a28d-3663401856e4)
 
 ## [Lead Scoring Model](https://github.com/SujayTalanki/Lead-Scoring)
-* Developed a lead scoring model using supervised machine learning algorithms to predict the probability that a loan ("lead") is funded with 93% accuracy
-* After performing cross validation and comparing with several models, the LightGBM classifier performed optimally
-* Led to a profit of ~ $300,000 (in our scenario, assuming a converted lead yields $120 and the time/effort costs around $15)
-* Tools: Python (Pandas and PyCaret)
+* Developed a lead scoring model using supervised machine learning algorithms to predict the probability that a loan ("lead") is funded with 93% accuracy.
+* After performing cross validation and comparing with several models, the LightGBM classifier performed optimally.
+* Led to a simulated profit of ~ $300,000 (in our scenario, assuming a converted lead yields $120 and the time/effort costs around $15).
+* Tools used: Python (Numpy, Pandas, PyCaret, LightGBM, Sklearn).
 
 **ROC Curve:**  
 
