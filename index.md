@@ -6,6 +6,7 @@ title: "Sujay Talanki's Data Science Portfolio"
 * Engineered a RAG pipeline using Llama3 8B LLM to automate maintenance request processing via an interactive form completion engine.
 * Leveraged GPT-4o to generate synthetic data.
 * RAG pipeline employs custom document object, VectorStoreIndex, QueryEngine, and Retriever.
+* Tools used: Python (PyTorch, Replicate, OpenAI API, LlamaIndex), Llama3 8b, Mistral 7b.
 * **NOTE**: Project isn't complete as the feedback feature hasn't been fully implemented and the Streamlit app code hasn't been fully developed. The real data was removed for privacy reasons.
 
 ## [Aerial Object Detection: Differentiating Drones, Birds, and Airplanes](https://github.com/SujayTalanki/DroneDetection)
