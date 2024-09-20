@@ -2,6 +2,12 @@
 layout: default
 title: "Sujay Talanki's Data Science Portfolio"
 ---
+## [LLM-Powered Form Completion Engine](https://github.com/SujayTalanki/LLMFormCompletionEngine)
+* Engineered a RAG pipeline using Llama3 8B LLM to automate maintenance request processing via an interactive form completion engine.
+* Leveraged GPT-4o to generate synthetic data.
+* RAG pipeline employs custom document object, VectorStoreIndex, QueryEngine, and Retriever.
+* **NOTE**: Project isn't complete as the feedback feature hasn't been fully implemented and the Streamlit app code hasn't been fully developed. The real data was removed for privacy reasons.
+
 ## [Aerial Object Detection: Differentiating Drones, Birds, and Airplanes](https://github.com/SujayTalanki/DroneDetection)
 * Curated a diverse dataset of 2000+ drone, bird, and airplane images/videos from various sources.
 * Augmented the dataset with varied lighting conditions, angles, cropping, shear, and background noise to simulate real-world conditions.
